@@ -14,13 +14,13 @@ new file->source->object-c file  <br/>
 协议不能放变量，只能声明函数<br/>
 
 协议是用尖括号包起来的多个协议用逗号分开<br/>
-interface Gun :NSObject<Weapon><br/>
+interface Gun :NSObject < Weapon > <br/>
 然后在m文件中实现就可以了<br/>
 
 id类型必须是类的指针，基本类型的指针不可以。<br/>
 
-id<<Weapon>> weapon=[Gun new]<br/>
-协议毕竟不是类，所以不能用Weapon* weapon只能用id的形式！id<Weapon>  <br/>
+id < Weapon > weapon=[Gun new]<br/>
+协议毕竟不是类，所以不能用Weapon* weapon只能用id的形式！id < Weapon >   <br/>
 
 @optional修饰到函数上，表示可实现可不实现，下面的函数都是可实现可不实现<br/>
 
