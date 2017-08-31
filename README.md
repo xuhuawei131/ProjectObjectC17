@@ -2,9 +2,12 @@
 15-1<br/>
 协议就是java的接口<br/>
 protocol协议创建过程<br/>
-new file,source,object-c file  ,在file type选择porotocol <br/>
+new file->source->object-c file  <br/>
 
-![img]()
+![img](https://github.com/xuhuawei131/ProjectObjectC17/blob/master/raw/master/ScreenShots/protocol1.png)<br/>
+
+在file type选择porotocol <br/>
+![img](https://github.com/xuhuawei131/ProjectObjectC17/blob/master/raw/master/ScreenShots/protocol2.png)<br/>
 
 协议只有一个头文件<br/>
 
