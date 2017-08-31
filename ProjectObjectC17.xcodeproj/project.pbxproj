@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		75B42F2B1F57F6A6000476C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B42F2A1F57F6A6000476C2 /* main.m */; };
+		75B42F341F57FA94000476C2 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B42F331F57FA94000476C2 /* Gun.m */; };
+		75B42F371F57FF6B000476C2 /* Knife.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B42F361F57FF6B000476C2 /* Knife.m */; };
+		75B42F3A1F5806BA000476C2 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B42F391F5806BA000476C2 /* Hero.m */; };
+		75B42F3D1F580999000476C2 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B42F3C1F580999000476C2 /* Hand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		75B42F271F57F6A6000476C2 /* ProjectObjectC17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectObjectC17; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B42F2A1F57F6A6000476C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75B42F311F57F70B000476C2 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		75B42F321F57FA94000476C2 /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		75B42F331F57FA94000476C2 /* Gun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
+		75B42F351F57FF6B000476C2 /* Knife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knife.h; sourceTree = "<group>"; };
+		75B42F361F57FF6B000476C2 /* Knife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knife.m; sourceTree = "<group>"; };
+		75B42F381F5806BA000476C2 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		75B42F391F5806BA000476C2 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		75B42F3B1F580998000476C2 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		75B42F3C1F580999000476C2 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				75B42F2A1F57F6A6000476C2 /* main.m */,
+				75B42F351F57FF6B000476C2 /* Knife.h */,
+				75B42F361F57FF6B000476C2 /* Knife.m */,
+				75B42F311F57F70B000476C2 /* Weapon.h */,
+				75B42F321F57FA94000476C2 /* Gun.h */,
+				75B42F331F57FA94000476C2 /* Gun.m */,
+				75B42F381F5806BA000476C2 /* Hero.h */,
+				75B42F391F5806BA000476C2 /* Hero.m */,
+				75B42F3B1F580998000476C2 /* Hand.h */,
+				75B42F3C1F580999000476C2 /* Hand.m */,
 			);
 			path = ProjectObjectC17;
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B42F3D1F580999000476C2 /* Hand.m in Sources */,
+				75B42F371F57FF6B000476C2 /* Knife.m in Sources */,
+				75B42F341F57FA94000476C2 /* Gun.m in Sources */,
 				75B42F2B1F57F6A6000476C2 /* main.m in Sources */,
+				75B42F3A1F5806BA000476C2 /* Hero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
