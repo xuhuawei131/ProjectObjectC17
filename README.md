@@ -19,7 +19,7 @@ interface Gun :NSObject<Weapon><br/>
 
 id类型必须是类的指针，基本类型的指针不可以。<br/>
 
-id<Weapon> weapon=[Gun new]<br/>
+id<<Weapon>> weapon=[Gun new]<br/>
 协议毕竟不是类，所以不能用Weapon* weapon只能用id的形式！id<Weapon>  <br/>
 
 @optional修饰到函数上，表示可实现可不实现，下面的函数都是可实现可不实现<br/>
