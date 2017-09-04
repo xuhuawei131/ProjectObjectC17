@@ -26,3 +26,12 @@ id < Weapon > weapon=[Gun new]<br/>
 
 @require修饰函数上表示必须实现，下面的所有函数都是必须实现的<br/>
 如果optional修饰的函数没实现，不能调用<br/>
+
+ProjectObjectC 1-12
+MyIOS1-4
+ProjectObjectC13-15
+MyIOS5
+ProjectObjectC16
+MyIOS6
+ProjectObjectC17
+MyIOS7-10
